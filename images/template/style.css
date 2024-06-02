@@ -1,0 +1,125 @@
+.logo-image{
+    width: 108px;
+}
+.img{
+    margin-left: 58px;
+    margin-top: 14px;
+    width: 33px;
+}
+.name{
+    margin-left: 100px;
+    margin-top: -38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+nav{
+    display: flex;
+    float: right;
+    margin-top: -44px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.home{
+    margin-right: 10vh;
+    font-weight: bold;
+}
+.about{
+    margin-right: 10vh;
+    font-weight: bold;
+}
+.contact{
+    margin-right: 10vh;
+    font-weight: bold;
+}
+.description{
+    margin-right: 10vh;
+    font-weight: bold;
+}
+.beautiful{
+    margin-left: 67px;
+    margin-top: 20vh;
+    font-size: 56px;
+    font-weight: bold;
+}
+.lorem{
+    margin-left: 67px;
+    font-size: 24px;
+    margin-top: -39px;
+}
+.view{
+    margin-left: 67px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 164px;
+    height: 33px;
+    font-size: 18px;
+}
+.learn{
+    width: 164px;
+    height: 33px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+
+}
+.main-img{
+    float: right;
+    margin-top: -57vh;
+    height: 84vh;
+    margin-right: 15vh;
+}
+.center{
+    background-color: #4e4b4b;
+    margin-top: 31vh;
+    width: 1262px;
+    height: 116vh;
+    margin-left: -8px;
+}
+.pot{
+    height: 48vh;
+    margin-left: 16vh;
+    margin-top: 7vh;
+    width: 78vh;
+}
+.discover{
+    float: right;
+    margin-top: -109vh;
+    margin-right: 25vh;
+    color: white;
+    font-size: 56px;
+}
+.lorem-2{
+    float: right;
+    margin-top: -88vh;
+    margin-right: 28vh;
+    color: white;
+    font-size: 18px;
+}
+.learn-more{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 164px;
+    height: 33px;
+    font-size: 18px;
+}
+.learn-more{
+    color: white;
+    text-align: center;
+    width: 167px;
+    height: 33px;
+    font-size: 18px;
+    float: right;
+    margin-top: -73vh;
+    margin-right: 61vh;
+    background-color: #4e4b4b;
+    border-color: white;
+}
+.dining{
+    margin-top: -37vh;
+    width: 178vh;
+    margin-left: 43px;
+    height: 53vh;
+}

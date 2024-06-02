@@ -1,0 +1,400 @@
+body{
+    padding: 0;
+}
+.right-top-nav-menu li{
+    float: right;
+    list-style-type: none;    
+    
+}
+.right-top-nav-menu li a:hover{
+    color: #e02466;
+}
+.right-top-nav-menu li:first-child{
+    border-right: 1px solid #502C1C;
+    padding-right: 24px;
+}
+.right-top-nav-menu li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: DrupalPrimaryTypefaceFont, Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #502C1C;
+}
+.right-top-nav-menu li img{
+    width: 16px;
+    height: 13px;
+}
+.right-top-nav-menu ul{
+    display: flex;
+    float: right;
+    margin-top: 9px;
+    gap: 30px;
+    margin-right: 66px;
+}
+.main-nav-menu ul{
+    list-style-type: none; 
+    display: flex;
+    gap: 38px;
+}
+.main-nav-menu ul a{
+    text-decoration: none;
+    font-family: DrupalPrimaryTypefaceFont, Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #502C1C;
+    font-weight: 900;
+}
+.logo img{
+    width: 36vh;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+.main-nav-menu{
+    margin-left: 44vh;
+    margin-top: -11vh;
+}
+.main-nav-menu li a:hover{
+    color: #e02466;
+}
+.section-1{
+    background-image: url(images/mainimage.avif);
+    height: 78vh;
+    margin-top: -2vh;
+    margin-left: -12px;
+    width: 99vw;
+}
+.section-1 h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+    text-align: center;
+    font-size: 11vh;
+    padding-top: 22vh;
+
+}
+.section-2{
+    background-color: #502C1C;
+    width: 99vw;
+    margin-left: -12px;
+    height: 104vh;
+    margin-top: -25px;
+}
+.galaxy-smooth-milk img{
+    height: 82vh;
+    padding-top: 20vh;
+    padding-left: 10vh;
+}
+.galaxy-smooth-milk{
+    position: absolute;
+    animation: smooth-milk 5s linear infinite;
+}
+.smooth-milk-content{
+    float: right;
+    margin-top: 22vh;
+    padding-right: 15vh;
+}
+.smooth-milk-content h6{
+    font-family: DrupalSecondaryTypefaceFont, Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.smooth-milk-content h1{
+    color: white;
+    font-family: DrupalSecondaryTypefaceFont, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 60px;
+}
+.smooth-milk-content button{
+    border: none;
+    border-radius: 50px;
+    width: 26vh;
+    height: 8vh;
+    background-color: #e02466;
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+   
+    
+}
+.smooth-milk-content button:hover{
+    color: #e02466;
+    background-color: #ffffff;   
+}
+.section-3-heading h1{
+    color: #502C1C;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 10vh;
+    padding-top: 20px;
+}
+.section-3-heading img{
+    margin-left: 100vh;
+    width: 100px;
+    height: 10px;
+}
+.grid-card{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+.card h1{
+    color: #502C1C;
+    font-family: sans-serif;
+}
+.card button{
+    border: none;
+    border-radius: 50px;
+    width: 26vh;
+    height: 8vh;
+    background-color: #e02466;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 800;
+    
+}
+.card img{
+    transition: transform 0.5s ease-in-out;
+}
+.card button:hover{
+    color: #e02466;
+    background-color: #ffffff; 
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.section-4{
+    background-image: url(images/about-us-bg-img.avif);
+    width: 100vw;
+    height: 92vh;
+    margin-left: -25px;
+    margin-top: 52px;
+}
+.about-us-heading h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+    font-weight: 800;
+}
+.about-us-heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 56px;
+}
+.about-us-heading img{
+    height: 16px;
+    width: 110px;
+    margin-left: 100vh;
+}
+.about-text{
+    text-align: center;
+    padding-top: 30px;
+}
+.about-text p{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.about-text button{
+    border: none;
+    border-radius: 50px;
+    width: 26vh;
+    height: 8vh;
+    background-color: #e02466;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 800;
+}
+.about-text button:hover{
+    color: #e02466;
+    background-color: #ffffff; 
+}
+.section-5{
+    background-color: #f6f6f6;
+    height: 115vh;
+}
+.heading-discover-world h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    color: #502C1C;
+    font-size: 60px;
+}
+.heading-discover-world img{
+    height: 16px;
+    width: 110px;
+    margin-left: 100vh;
+}
+.discover-grid-card{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 65px;
+}
+.discover-card h1{
+    font-family: sans-serif;
+    color: #502C1C;
+}
+.discover-card p{
+    font-family: sans-serif;
+}
+.discover-card button{
+    border: none;
+    border-radius: 50px;
+    width: 26vh;
+    height: 8vh;
+    background-color: #e02466;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 800;
+}
+.discover-card button:hover{
+    color: #e02466;
+    background-color: #ffffff; 
+}
+.discover-card img{
+    transition: transform 0.5s ease-in-out;
+}
+.discover-card img:hover{
+    transform: scale(1.1);
+}
+.heading-visit-social{
+    padding-top: 70px;
+}
+.heading-visit-social h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    color: #502C1C;
+    font-size: 60px;
+}
+.heading-visit-social img{
+    height: 16px;
+    width: 110px;
+    margin-left: 100vh;
+}
+.social-card-images{
+    display: flex;
+    overflow-x: scroll;
+}
+.social-card-images::-webkit-scrollbar{
+    display: none;
+}
+.social-cards{
+    padding-inline: 16px;
+}
+.social-card-images img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.social-feed-cards{
+    margin-top: 60px;
+}
+.section-7{
+    margin-top: 20vh;
+}
+.bottom-nav-menu li a{
+    text-decoration: none;
+    font-family: DrupalPrimaryTypefaceFont, Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #502C1C;
+    font-weight: 900;
+}
+.bottom-nav-menu {
+    margin-left: 46vh;
+    margin-top: -76px;
+}
+.bottom-nav-menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 38px;
+}
+.background{
+    width: 100vw;
+    background-color: #502C1C;
+    height: 77vh;
+    margin-top: -14vh;
+    margin-left: -25px;
+
+}
+.social-media-icons h3{
+    padding-top: 85px;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 55px;
+}
+.icons{
+    padding-left: 30px;
+}
+.icons a{
+    padding: 15px;
+}
+.footer-menus{
+    display: flex;
+    margin-left: 50vh;
+    margin-top: -12vh;
+    justify-content: space-evenly;
+
+}
+.menus a:hover{
+    cursor: pointer;
+}
+.menus{
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.social-media-icons p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-left: 73vh;
+    padding-top: 24px;
+}
+.footer-border-line{
+    height: 1px;
+    background-color: white;
+    width: 200vh;
+    margin-left: 60px;
+    margin-top: 27px;
+}
+.bottom-things h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 26px;
+    padding-left: 68px;
+    padding-top: 20px;
+}
+.bottom-things button{
+    border-color: white;
+    border-radius: 25px;
+    width: 150px;
+    height: 49px;
+    margin-left: 70px;
+    color: white;
+    background-color: transparent;
+    font-weight: 800;
+}
+.bottom-things button:hover{
+    background-color: #ffffff;
+    color: #e02466;
+}
+.mars{
+    float: right;
+    padding-right: 50px;
+    margin-top: -69px;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+}
+.bottom-nav-menu a:hover{
+    color: #e02466;
+}
+
+@keyframes smooth-milk{
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-50px);
+      }
+}
